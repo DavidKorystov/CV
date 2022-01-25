@@ -48,21 +48,24 @@ main {
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 40px;
 }
 .blocks-networks {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: snow;
+  font-size: 15px;
+}
+.blocks-networks > img {
+  margin-right: 10px;
 }
 .line-networks {
   height: 50%;
   border: 1px solid snow;
 }
-.networks-name > p {
-  color: snow;
-  font-size: 15px;
-  margin-left: 10px;
-}
+
 /* networks-section */
 
 .content {
