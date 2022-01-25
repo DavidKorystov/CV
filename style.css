@@ -134,24 +134,18 @@ main {
 }
 
 /* SKILLS */
-.skills-line {
-  display: flex;
-  padding-right: 30px;
-  padding-top: 10px;
+ul.skill-list {
+  /* align-items: flex-start; */
+  flex-direction: row;
 }
-.skills-line-last {
-  display: flex;
-  padding-right: 30px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-}
-.black-line {
-  border: 3px solid black;
-  width: 70%;
-}
-.grey-line {
-  border: 3px solid grey;
-  width: 30%;
+.skill-list li {
+  padding: 5px;
+  background-color: #5c77a5;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
 }
 /* SKILLS */
 /* left section */
