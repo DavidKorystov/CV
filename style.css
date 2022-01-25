@@ -8,32 +8,38 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol";
 }
 main {
-  user-select: none;
   margin: 150px auto;
-  width: calc(210mm - 50px * 2);
-  height: calc(297mm - 10px * 2);
+  width: 210mm;
+  height: 297mm;
   background-color: rgba(255, 255, 255, 0.85);
 }
 /* head section */
-.head {
-  text-align: center;
+.head-section {
+  display: flex;
+  justify-content: space-between;
 }
-.head > h1 {
-  font-size: 50px;
+.photo {
+  background-image: url('img/image.png');
+  background-position: center;
+  background-size: cover;
+  flex-basis: 250px;
+  height: 200px;
 }
 .head-title {
-  height: 200px;
-  width: 100%;
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.head-section {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  height: 200px;
-  width: 100%;
+.head-title {
+  text-align: center;
+}
+.head-title > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 /* head section */
 /* networks-section */
