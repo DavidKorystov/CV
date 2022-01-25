@@ -1,165 +1,166 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: grey;
-    font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: grey;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 main {
-    user-select: none;
-    margin: 150px auto;
-    width: calc(210mm - 50px * 2);
-    height: calc(297mm - 10px * 2);
-    background-color: rgba(255,255,255,0.85);
+  user-select: none;
+  margin: 150px auto;
+  width: calc(210mm - 50px * 2);
+  height: calc(297mm - 10px * 2);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 /* head section */
-.head{
-    text-align: center;
+.head {
+  text-align: center;
 }
 .head > h1 {
-    font-size: 50px;
-  }
-.head-title{
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  font-size: 50px;
 }
-.head-section{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    height: 200px;
-    width: 100%;
+.head-title {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 200px;
+  width: 100%;
 }
 /* head section */
 /* networks-section */
-.networks-section{
-    background: rgb(32, 32, 32);
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.networks-section {
+  background: rgb(32, 32, 32);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.blocks-networks{
-    display: flex;
-    align-items: center;
+.blocks-networks {
+  display: flex;
+  align-items: center;
 }
-.line-networks{
-    height: 50%;
-    border: 1px solid snow;
+.line-networks {
+  height: 50%;
+  border: 1px solid snow;
 }
 .networks-name > p {
-    color: snow;
-    font-size: 15px;
-    margin-left: 10px;
+  color: snow;
+  font-size: 15px;
+  margin-left: 10px;
 }
 /* networks-section */
 
-.content{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,255,255,0.85);
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 /* left section */
-.content-section-left{
-    width: 210px;
-    height: calc(100%-40px) ;
-    background: skyblue;
-    padding-top: 40px;
-    padding-left: 40px;
+.content-section-left {
+  width: 210px;
+  height: calc(100%-40px);
+  background: skyblue;
+  padding-top: 40px;
+  padding-left: 40px;
 }
-.content-section-left-line{
-    border: 1px solid black;
-    margin-top: 10px;
+.content-section-left-line {
+  border: 1px solid black;
+  margin-top: 10px;
 }
-.block{
-    display: flex;
+.block {
+  display: flex;
 }
 .content-section-left ul {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .block li {
-    margin-left: 10px;
-    list-style-type: none;
-    line-height: 1.5;
-    font-size: 15px;
+  margin-left: 10px;
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 15px;
 }
 .content-section-left li {
-    list-style-type: none;
-    line-height: 1.5;
-    font-size: 15px;
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 15px;
 }
-.contect-section-subtitle{
-    margin-top: 40px;
+.contect-section-subtitle {
+  margin-top: 40px;
 }
-.contect-section-subtitle > h5{
-    padding-top: 20px;
+.contect-section-subtitle > h5 {
+  padding-top: 20px;
 }
-.contect-section-subtitle > p{
-    padding-top: 20px;
+.contect-section-subtitle > p {
+  padding-top: 20px;
 }
 /* SKILLS */
-.skills-line{
-    display: flex;
-    padding-right: 30px;
-    padding-top: 10px;
+.skills-line {
+  display: flex;
+  padding-right: 30px;
+  padding-top: 10px;
 }
-.skills-line-last{
-    display: flex;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 50px;
+.skills-line-last {
+  display: flex;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
-.black-line{
-    border: 3px solid black;
-    width: 70%;
+.black-line {
+  border: 3px solid black;
+  width: 70%;
 }
-.grey-line{
-    border: 3px solid grey;
-    width: 30%;
+.grey-line {
+  border: 3px solid grey;
+  width: 30%;
 }
 /* SKILLS */
 /* left section */
 /* right section */
-.content-section-right{
-    background-color: rgba(255,255,255,0.85);
+.content-section-right {
+  background-color: rgba(255, 255, 255, 0.85);
 }
-.content-section-right-line{
-    border: 1px solid grey;
-    margin-top: 10px;
-    width: 85%;
+.content-section-right-line {
+  border: 1px solid grey;
+  margin-top: 10px;
+  width: 85%;
 }
-.content-section-subtitle-right{
-    width: 100%;
-    padding-left: 40px;
-    padding-top: 40px;
+.content-section-subtitle-right {
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 40px;
 }
-.content-section-right-text p{
-    margin-top: 20px;
-    width: 85%;
-    line-height: 1.5;
-    font-size: 15px;
+.content-section-right-text p {
+  margin-top: 20px;
+  width: 85%;
+  line-height: 1.5;
+  font-size: 15px;
 }
-.content-section-subtitle-right h5{
-    margin-top: 20px;
-    width: 85%;
-    line-height: 1.5;
+.content-section-subtitle-right h5 {
+  margin-top: 20px;
+  width: 85%;
+  line-height: 1.5;
 }
-.content-section-subtitle-right ul{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 85%;
-    line-height: 1.5;
-    font-size: 15px;
+.content-section-subtitle-right ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 85%;
+  line-height: 1.5;
+  font-size: 15px;
 }
-.subtitle-text{
-    padding-top: 20px;
-}   
+.subtitle-text {
+  padding-top: 20px;
+}
 /* right section */
