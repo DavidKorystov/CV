@@ -122,7 +122,7 @@ const IndexPage = () => {
               <li className="block">
                 <a href="https://goo.gl/maps/8ELkG4vxXGwJ5Byx9">
                   <img src={geoSVG} alt="" />
-                  <p>Ukraine, Krivoy Rog</p>
+                  <p>Germany, Koblenz</p>
                 </a>
               </li>
             </ul>
@@ -158,11 +158,7 @@ const IndexPage = () => {
             <h4>Profile</h4>
             <div className="content-section-right-line"></div>
             <p className="experience-desc">
-              I am an ambitious person. If something attracts me it takes all my
-              thoughts and makes me hardworking and energetic. I appreciate
-              working in a team since I believe that good teammates may multiply
-              each other's strengths.
-            </p>
+I am a highly driven individual who becomes completely absorbed in anything that captures my interest, channeling my energy and effort towards achieving my goals. Collaborating with others is something I value, as I believe that a strong team can amplify each individual's abilities.</p>
           </div>
           <div className="content-section-subtitle-right">
             <h4>EXPERIENCE</h4>
